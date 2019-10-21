@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(204, 204, 204);
+    font-size: 12pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+#div{
+    background-color: rgb(245, 242, 242);
+    margin: 150px 300px 150px 300px;
+    border: 2px rgb(231, 229, 229) solid;
+    padding: 20px;
+    line-height: 0.5px;
+}
+
+h1{
+    color: black;
+}
+
+hr{
+    color: rgb(182, 176, 176)
+}
+
+div{
+     color: gray;
+     margin-top: 30px;
+}
+
+p{
+    color: rgb(96, 115, 119);
+    line-height: 0.5px;
+}
+
+textarea{
+    width: 400px;
+    height: 80px;
+}
+
+button{
+    background-color: coral;
+    width: 65px;
+    margin-left: 268px;
+}
+
+a{
+  
+}
