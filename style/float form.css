@@ -1,0 +1,35 @@
+#wrapper{
+    width: 900px;
+    border: 1px solid #dbdbdb;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+#header{
+    height: 100px;
+    margin-bottom: 10px;
+    background-color: #4d7d90;
+}
+
+
+#sideBar{
+    height: 400px;
+    width: 200px;
+    background-color: #8a999f;
+    float: right;
+}
+
+
+#content{
+    height: 400px;
+    width: 690px;
+    background-color: #c7d4d9;
+}
+
+
+#footer{
+    height: 400px;
+    margin-top: 10px;
+    background-color: #4d7d90;
+    
+}

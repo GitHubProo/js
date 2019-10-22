@@ -1,0 +1,49 @@
+body {
+  background-color: gainsboro;
+}
+
+h1 {
+  text-align: center;
+  color: red;
+}
+
+h3 {
+  text-align: center;
+  color: saddlebrown;
+}
+
+div {
+  background-color: ghostwhite;
+  margin: 150px 250px 150px 250px;
+  border: 1px solid rgb(207, 207, 207);
+  padding: 20px;
+}
+
+#thiefImg2 {
+  width: 80px;
+  height: 120px;
+  float: right;
+}
+
+#thiefDiv {
+  margin: 0px 550px 0px 0px;
+  border: 0px;
+  position: absolute;
+  top: 230px;
+  left: 850px;
+}
+
+#thiefImg1 {
+  width: 120px;
+  height: 60px;
+}
+
+#position {
+  background-color: gainsboro;  
+  border: 0px;
+  padding: 0px;
+  margin-left: 0px;
+  position: fixed;
+  left: 0px;
+  top: 50%;
+}
