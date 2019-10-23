@@ -1,0 +1,37 @@
+#divHeader {
+  min-width: 960px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#divMagazine {
+  float: left;
+  font-size: 50pt;
+  width: 260px;
+  height: 50;
+}
+
+#divBaner {
+  float: right;
+  width: 800px;
+  height: 400px;
+}
+
+#imgBaner {
+  width: 400px;
+  height: 50px;
+  padding-top: 90px;
+  padding-left: 400px;
+}
+
+/*clean block div*/
+.clean {
+  clear: both;
+}
+
+#divMenu {
+  height: 40px;
+  width: 100%;
+  background-color: black;
+  margin-top: 0px;
+}
