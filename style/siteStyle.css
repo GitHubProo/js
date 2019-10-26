@@ -79,16 +79,49 @@ body{
   width: 300px;
   height: 600px;
   background: rgb(207, 203, 203);
-  float: right;
-  
+  float: right;  
 }
+
+#formSearch{
+  margin-left: 65px;
+  height: 20px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+#buttonSearch{
+  height: 27px;
+  width: 70px;
+  background-color: black;
+  color: white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#divTextField{
+  float: left;
+}
+
+#sponsorsAndSearch{
+  color: gray;
+  text-transform: uppercase;
+  margin-left: 45px;
+}
+
+#imagesWidthHeigthSponsors{
+  width: 100px;
+  height: 80px;
+  line-height: 2px;
+
+}
+
 
 #divContent{
   margin-right: 300px;
   background: rgb(236, 238, 233); 
-  border: 3px solid red;
-  
 }
+
+
 
 #imageWidthHeigth{
   width: 160px;
