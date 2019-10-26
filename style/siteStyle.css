@@ -1,11 +1,10 @@
-body{
+body {
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
-  
 }
 
 #divHeader {
-  min-width: 960px; 
+  min-width: 960px;
   max-width: 1200px;
   margin: 0 auto;
   overflow: hidden;
@@ -46,10 +45,7 @@ body{
 #listMenu ul li {
   float: left;
   text-transform: uppercase;
-  
 }
-
-
 
 #listMenu a {
   color: white;
@@ -58,38 +54,43 @@ body{
   display: block;
 }
 
-#listMenu #allContent{
-  min-width: 960px; 
-  max-width: 1200px;
-  margin: 0 auto;
+#listMenu ul li a{
+  font-weight: bold;
 }
 
-#listMenu a:hover{
-  background: rgb(63, 60, 60);
-}
-
-#divAllContent{  
+#listMenu #allContent {
   min-width: 960px;
   max-width: 1200px;
   margin: 0 auto;
-  
 }
 
-#sideBar{
+#listMenu a:hover {
+  background: rgb(63, 60, 60);
+}
+
+#divAllContent {
+  min-width: 960px;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 800px;
+ 
+}
+
+#sideBar {
   width: 300px;
-  height: 600px;
+  height: 800px;
   background: rgb(207, 203, 203);
-  float: right;  
+  float: right;
 }
 
-#formSearch{
+#formSearch, #formSearchMegazinNews {
   margin-left: 65px;
   height: 20px;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
 
-#buttonSearch{
+#buttonSearch, #buttonSabscribe {
   height: 27px;
   width: 70px;
   background-color: black;
@@ -98,76 +99,132 @@ body{
   border-bottom-right-radius: 5px;
 }
 
-#divTextField{
+#divTextField {
   float: left;
 }
 
-#sponsorsAndSearch{
+#sponsorsAndSearch {
   color: gray;
   text-transform: uppercase;
   margin-left: 45px;
+  }
+
+#categories{
+  color: gray;
+  text-transform: uppercase;
+  margin-left: 45px;
+  margin-bottom: -5px;
 }
 
-#imagesWidthHeigthSponsors{
-  width: 100px;
+#divImg{
+  margin-right: 20px ;
+  margin-left: 30px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.imagesWidthHeigthSponsorsRow1, .imagesWidthHeigthSponsorsRow2 {
+  width: 120px;
   height: 80px;
-  line-height: 2px;
+
+  
+}
+
+.imagesWidthHeigthSponsorsRow1{
+  float: left;
 
 }
 
+.imagesWidthHeigthSponsorsRow2{
+  float: right;
+}
 
-#divContent{
+#categoriesList ul{
+  width: 110px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+#categoriesList ul li{
+  border: 1px dashed rgb(189, 187, 187);
+  padding: 9px 0;
+ 
+  
+}
+
+#categoriesList ul li a{
+  text-decoration: none;
+  color:rgb(65, 64, 64);
+  font-weight: bold;
+}
+
+#categoriesList ul li a:hover{
+color: gray;
+}
+
+.left {
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+#categoriesList ul li:first-child{
+  border: none;
+}
+
+#divContent {
   margin-right: 300px;
-  background: rgb(236, 238, 233); 
+  background: rgb(236, 238, 233);
+  height: 800px;
 }
 
-
-
-#imageWidthHeigth{
+#imageWidthHeigth {
   width: 160px;
   height: 160px;
   float: left;
   line-height: 0.5px;
   border: 2px solid gray;
-  
 }
 
-.divArticle1, .divArticle2, .divArticle3 {
+.divArticle1,
+.divArticle2,
+.divArticle3 {
   margin-left: 180px;
 }
 
-.divArticle1 a{
+.divArticle1 a {
   text-decoration: none;
-  color: gray
+  color: gray;
 }
 
-.divArticle2 a{
+.divArticle2 a {
   text-decoration: none;
-  color: gray
+  color: gray;
 }
 
-.divArticle3 a{
+.divArticle3 a {
   text-decoration: none;
-  color: gray
+  color: gray;
 }
 
 .divArticle1 a:hover {
   text-decoration: underline;
-  color: gray
-  
+  color: gray;
 }
 
-.divArticle2 a:hover{
+.divArticle2 a:hover {
   text-decoration: underline;
-  color: gray
+  color: gray;
 }
 
-.divArticle3 a:hover{
+.divArticle3 a:hover {
   text-decoration: underline;
-  color: gray
+  color: gray;
 }
 
-.divArticle3{
+.divArticle3 {
   margin-bottom: 30px;
 }
 
@@ -175,13 +232,7 @@ body{
   padding-top: 10px;
 }
 
-.divImg2, .divImg3{
+.divImg2,
+.divImg3 {
   padding-top: 20px;
 }
-
-
-
-
-
-
-
