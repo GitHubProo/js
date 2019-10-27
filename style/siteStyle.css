@@ -265,16 +265,65 @@ body {
 }
 
 #footerLine {
-  border-bottom: 5px dashed black;
+  border-bottom: 2px dashed rgb(17, 17, 17);
   height: 50px;
 }
 
 #divFooterMiddle {
   background-color: rgb(26, 25, 25);
-  color: white;
+  color: gray;
+}
+
+#alignForCenter {
+  overflow: hidden;
+}
+
+.footerBoxMegazine {
+  width: 30%;
+
+  float: left;
+  margin-right: 7%;
+  margin-left: 5%;
+}
+
+.recentPost {
+  width: 29%;
+  float: left;
+  margin-right: 10%;
+}
+
+.recentPost ul li {
+  padding: 10px;
+  border-bottom: 1px dashed black;
+}
+
+.ourArchives {
+  width: 10%;
+  float: left;
+}
+
+.ourArchives ul li {
+  padding: 10px;
+  border-bottom: 1px dashed black;
 }
 
 #divCopyright {
   background-color: rgb(26, 25, 25);
   color: white;
+  border-top: 1px dashed rgb(17, 17, 17);
+  overflow: hidden;
+}
+
+#divCop1 {
+  padding-left: 50px;
+
+  float: left;
+  margin-left: 100px;
+}
+
+#divCop2 {
+  padding-left: 50px;
+
+  float: right;
+  margin-right: 100px;
 }
