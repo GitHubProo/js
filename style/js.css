@@ -15,6 +15,7 @@ h1 {
   border: 3px solid white;
   margin: 100px 300px 0px 300px;
   height: 350px;
+  width: 500px;
   background-color: rgb(4, 4, 94);
 }
 
@@ -43,10 +44,11 @@ p {
 
 #divPrint {
   margin: 20px 300px 50px 300px;
+  width: 500px;
 }
 
 #divPrint input {
-  width: 500px;
+  width: 350px;
   padding: 20px;
   margin-top: 20px;
   margin-bottom: 20px;

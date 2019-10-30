@@ -1,42 +1,31 @@
 var days = document.getElementById("selectDay");
-  var textArea = document.getElementById("textArea");
-  var arr = [];
+var textArea = document.getElementById("textAreaId");
+ 
+var arr = [];
 
 function btnSend() {
-  
-var ob = {
-  day: days.value,
-  note: textArea.value
+  var ob = {
+    day: days.value,
+    note: textArea.value
+  };
+
+  arr.push(ob);
+  console.log(arr);
 }
-    
-  //   var count1 = arr.push(days);
-  //   var count2 = arr.push(textArea);
-  
-  
-arr.push(ob)
-console.log(arr)
-  // for (let i = 0; i < arr.length;) {
-    
-  //   }
-    // var newArray = arr.push(days);
-    // newArray++
-    // console.log(arr);
-    
-  }
-
-  /*
-   if (ar[2] == 'days1') {
-    console.log(ar[2])
-   } else{
-    console.log('error')
-   }
-    */
-
 
 function btnPrint() {
-  var days = document.getElementById("selectDay").value;
-  console.log(days);
-  var textArea = document.getElementById("textArea").value;
-  console.log(textArea);
-  document.getElementById("textPrint2").value = textArea;
+    var ob = {
+        day: days.value,
+        note: textArea.value 
+      };
+      
+      document.getElementById("textPrint2").value = ob.note
+      console.log(ob.note);
+  //var days = document.getElementById("selectDay").value;
+  //console.log(days);
+  //var textArea = document.getElementById("textArea").value;
+  //var textArea = document.getElementById("textPrint2").value = textAreaId;
+  
+    //textArea.value = textArea
+    //console.log(textArea);
 }
