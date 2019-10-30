@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Java Script</title>
     <link rel="stylesheet" type="text/css" href="/style/js.css" />
-    <script type="text/javascript" src="/JavaScript/javaScript.js"></script>
   </head>
   <body>
     <h1>daily planner</h1>
@@ -17,24 +16,34 @@
         <label for="selectDay">
         Dey week:
         <select name="select" id="selectDay">
-          <option value="Mon">Monday</option>
-          <option value="Mon">Tuesday</option>
-          <option value="Mon">Wednsday</option>
-          <option value="Mon">Thursday</option>
-          <option value="Mon">Friday</option>
-          <option value="Mon">Saturday</option>
-          <option value="Mon">Sunday</option>
+          <option value="Monday">Monday</option>
+          <option value="Tuesday">Tuesday</option>
+          <option value="Wednsday">Wednsday</option>
+          <option value="Thursday">Thursday</option>
+          <option value="Friday">Friday</option>
+          <option value="Saturday">Saturday</option>
+          <option value="Sunday">Sunday</option>
         </select>
         </label>
       </p>
         <textarea name="textarea" id="textArea" cols="72" rows="10">
           Write the text note
         </textarea>
-      <button>send</button>
-      <button>print</button>  
+        <div id="divSendPrintButton">
+          <input type="button" value="send" onclick="btnSend()">
+          <input type="button" value="print" onclick="btnPrint()">
+        </div>
+      </div>
+      <div id="divPrint"> 
+        <input type="text" placeholder="Text" id="textPrint1">
+        <br>
+        <input type="text" placeholder="Text" id="textPrint2"  name="arraySend">
+      </div>
       
     </form>
-    </div>
+    
     
   </body>
+  <script type="text/javascript" src="/JavaScript/javaScript.js"></script>
+
 </html>

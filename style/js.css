@@ -13,7 +13,7 @@ h1 {
 
 #div1 {
   border: 3px solid white;
-  margin: 100px 300px 300px 300px;
+  margin: 100px 300px 0px 300px;
   height: 350px;
   background-color: rgb(4, 4, 94);
 }
@@ -24,19 +24,31 @@ p {
   color: white;
 }
 
-#selectDay{
-    width: 100px;
-    margin: 20px;
-    font-size: 19px;
+#selectDay {
+  width: 100px;
+  margin: 20px;
+  font-size: 19px;
 }
 
-#textArea{
-    margin-left: 25px;
-    margin-top: -20px;  
+#textArea {
+  margin-left: 25px;
+  margin-top: -20px;
 }
 
-button{
-    width: 80px;
-    margin-left: 25px;
-    text-transform: uppercase;
+#divSendPrintButton input {
+  width: 80px;
+  margin-left: 25px;
+  text-transform: uppercase;
+}
+
+#divPrint {
+  margin: 20px 300px 50px 300px;
+}
+
+#divPrint input {
+  width: 500px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
 }
