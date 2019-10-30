@@ -20,6 +20,7 @@ function btnPrint() {
       };
       
       document.getElementById("textPrint2").value = ob.note
+      
       console.log(ob.note);
   //var days = document.getElementById("selectDay").value;
   //console.log(days);
