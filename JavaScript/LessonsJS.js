@@ -83,5 +83,7 @@ console.log(valueObject)
 
 console.log("--------------------");
 
-
 console.log(arraySelectName[4])
+
+var body = document.getElementById("body")
+console.log(body)
